@@ -1,0 +1,77 @@
+{
+ "autoname": "format:LG-{faculty_id}",
+ "creation": "2019-09-15 12:06:08.023712",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "faculty_id",
+  "name1",
+  "usn_section",
+  "from",
+  "to",
+  "refresh_list",
+  "student_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "faculty_id",
+   "fieldtype": "Link",
+   "label": "Faculty ID",
+   "options": "Faculty"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "name"
+  },
+  {
+   "fieldname": "usn_section",
+   "fieldtype": "Section Break",
+   "label": "USN"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "from"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "to"
+  },
+  {
+   "fieldname": "student_list",
+   "fieldtype": "Table",
+   "label": "student list",
+   "options": "Basic Student Information"
+  },
+  {
+   "fieldname": "refresh_list",
+   "fieldtype": "Button",
+   "label": "refresh list"
+  }
+ ],
+ "modified": "2019-09-18 15:59:30.648820",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Local Guardian",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

@@ -1,0 +1,49 @@
+{
+ "creation": "2019-09-18 16:14:46.500201",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "usn",
+  "name1",
+  "mobile_number",
+  "email_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "usn",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "USN",
+   "options": "Student"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email ID"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mobile number"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-09-18 16:14:46.500201",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Basic Student Information",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
