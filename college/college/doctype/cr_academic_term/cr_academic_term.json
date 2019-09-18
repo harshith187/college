@@ -1,0 +1,34 @@
+{
+ "creation": "2019-09-18 16:51:05.710096",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "from",
+  "to"
+ ],
+ "fields": [
+  {
+   "fieldname": "from",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-09-18 16:51:05.710096",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "CR Academic Term",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

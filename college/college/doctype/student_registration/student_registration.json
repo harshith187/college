@@ -1,0 +1,98 @@
+{
+ "autoname": "format:Student-Registration-{usn}",
+ "creation": "2019-09-18 18:42:58.305164",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "usn",
+  "student_name",
+  "payment_details_section",
+  "fee_status",
+  "fee_paid_date",
+  "fee_pain_amount",
+  "rt_number",
+  "payment_mode",
+  "name_of_the_bank",
+  "fee_receipt"
+ ],
+ "fields": [
+  {
+   "fieldname": "usn",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "USN",
+   "options": "Student",
+   "reqd": 1
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "Student Name"
+  },
+  {
+   "fieldname": "payment_details_section",
+   "fieldtype": "Section Break",
+   "label": "Payment Details"
+  },
+  {
+   "fieldname": "fee_status",
+   "fieldtype": "Select",
+   "label": "Fee Status",
+   "options": "Paid\nPending"
+  },
+  {
+   "fieldname": "fee_paid_date",
+   "fieldtype": "Date",
+   "label": "Fee Paid Date"
+  },
+  {
+   "fieldname": "fee_pain_amount",
+   "fieldtype": "Data",
+   "label": "Fee Pain Amount"
+  },
+  {
+   "fieldname": "rt_number",
+   "fieldtype": "Data",
+   "label": "RT number"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "label": "Payment Mode",
+   "options": "Online\nCash\nDD\nNEFT\nCheck"
+  },
+  {
+   "fieldname": "name_of_the_bank",
+   "fieldtype": "Data",
+   "label": "Name of the bank"
+  },
+  {
+   "fieldname": "fee_receipt",
+   "fieldtype": "Attach",
+   "label": "Fee Receipt "
+  }
+ ],
+ "modified": "2019-09-18 18:44:00.712144",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Student Registration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
