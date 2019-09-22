@@ -22,7 +22,6 @@ class LocalGuardian(Document):
 			new_student_entry.mobile_number = student_details.student_mobile_number
 			self.append("student_list",new_student_entry)
 			
-		
 @frappe.whitelist()
 def get_faculty_name(faculty_id):
 	faculty = frappe.get_doc("Faculty",faculty_id)

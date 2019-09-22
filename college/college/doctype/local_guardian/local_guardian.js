@@ -28,5 +28,6 @@ frappe.ui.form.on("Local Guardian", {
 				}
 			})
 		}
+		frm.save();
 	}
 });
