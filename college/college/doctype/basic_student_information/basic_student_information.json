@@ -3,6 +3,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "student__id",
   "usn",
   "name1",
   "mobile_number",
@@ -11,10 +12,9 @@
  "fields": [
   {
    "fieldname": "usn",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "USN",
-   "options": "Student"
+   "label": "USN"
   },
   {
    "fieldname": "name1",
@@ -33,10 +33,16 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Mobile number"
+  },
+  {
+   "fieldname": "student__id",
+   "fieldtype": "Link",
+   "label": "Student  ID",
+   "options": "Student"
   }
  ],
  "istable": 1,
- "modified": "2019-09-18 16:14:46.500201",
+ "modified": "2020-01-22 16:28:54.879936",
  "modified_by": "Administrator",
  "module": "college",
  "name": "Basic Student Information",
