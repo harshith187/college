@@ -19,14 +19,29 @@ frappe.ui.form.on("Local Guardian", {
 		var start_usn = faculty.from
 		var end_usn = faculty.to
 		if(start_usn && end_usn){
-			frm.call({
-				doc: frm.doc,
-				method: "update_student_list",
-				args:{
-					start_usn: start_usn,
-					end_usn: end_usn
-				}
-			})
+			if(!faculty.student_list){
+				frm.call({
+					doc: frm.doc,
+					method: "update_student_list",
+					args:{
+						start_usn: start_usn,
+						end_usn: end_usn,
+						old_data: null
+					}
+				})
+			}
+			else{
+				frm.call({
+					doc: frm.doc,
+					method: "update_student_list",
+					args:{
+						start_usn: start_usn,
+						end_usn: end_usn,
+						old_data: faculty.student_list
+					}
+				})
+			}
+			
 		}
 	}
 });
