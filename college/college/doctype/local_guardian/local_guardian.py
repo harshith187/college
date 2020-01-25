@@ -27,8 +27,7 @@ class LocalGuardian(Document):
 
 def update_student_data(student_details):
 	new_student_entry = frappe.new_doc("Basic Student Information")
-	new_student_entry.student__id  = student_details.name
-	new_student_entry.usn  = student_details.usn
+	new_student_entry.usn  = student_details.name
 	new_student_entry.name1 = " ".join(filter(None,[student_details.first_name,student_details.middle_name,student_details.last_name]))
 	new_student_entry.email_id = student_details.student_email_id
 	new_student_entry.mobile_number = student_details.student_mobile_number
