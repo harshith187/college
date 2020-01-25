@@ -43,5 +43,13 @@ frappe.ui.form.on("Local Guardian", {
 			}
 			
 		}
-	}
+	},
+	send_mails: function(frm){
+		frappe.call({
+			method: "college.api.send_mails",
+			args: {
+				local_guardian: frm.doc.name
+			}
+		})
+	},
 });

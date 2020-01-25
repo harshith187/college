@@ -10,7 +10,11 @@
   "from",
   "to",
   "refresh_list",
-  "student_list"
+  "student_list",
+  "send_message_section",
+  "subject",
+  "message",
+  "send_mails"
  ],
  "fields": [
   {
@@ -49,9 +53,29 @@
    "fieldname": "refresh_list",
    "fieldtype": "Button",
    "label": "refresh list"
+  },
+  {
+   "fieldname": "send_message_section",
+   "fieldtype": "Section Break",
+   "label": "Send message"
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Text Editor",
+   "label": "Message"
+  },
+  {
+   "fieldname": "send_mails",
+   "fieldtype": "Button",
+   "label": "Send mails"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Small Text",
+   "label": "Subject"
   }
  ],
- "modified": "2019-09-18 15:59:30.648820",
+ "modified": "2020-01-23 00:10:02.176506",
  "modified_by": "Administrator",
  "module": "college",
  "name": "Local Guardian",
