@@ -7,9 +7,6 @@ import frappe
 from frappe.model.document import Document
 
 class LocalGuardian(Document):
-	def validate(self):
-		self.name1 = get_faculty_name(self.faculty_id)
-			
 	def update_student_list(self,start_usn,end_usn,old_data):
 		new_students = frappe.db.sql("""select name from `tabStudent` where usn between "{0}" and "{1}" """.format(start_usn,end_usn),as_dict=1)
 		usn_list = []
