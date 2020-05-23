@@ -1,0 +1,58 @@
+{
+ "creation": "2020-05-22 13:21:47.431879",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "usn",
+  "name1",
+  "department",
+  "package_offered",
+  "resume"
+ ],
+ "fields": [
+  {
+   "fieldname": "usn",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "USN",
+   "options": "Student"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name "
+  },
+  {
+   "fieldname": "package_offered",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Package offered"
+  },
+  {
+   "fieldname": "resume",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Resume"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-05-23 17:30:50.380965",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Recruited Students list",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

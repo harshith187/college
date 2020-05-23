@@ -1,0 +1,127 @@
+{
+ "autoname": "format:{company_name}",
+ "creation": "2020-05-23 17:28:47.686644",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company_name",
+  "abbreviation",
+  "company_logo",
+  "company_info_section",
+  "country",
+  "website",
+  "email",
+  "column_break_8",
+  "phone_no",
+  "fax",
+  "recruitment_details_section",
+  "highest_package_offered",
+  "number_of_students_recruited",
+  "recruited_students_list",
+  "company_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "abbreviation",
+   "fieldtype": "Data",
+   "label": "Abbreviation"
+  },
+  {
+   "fieldname": "company_logo",
+   "fieldtype": "Attach Image",
+   "label": "Company Logo"
+  },
+  {
+   "fieldname": "company_info_section",
+   "fieldtype": "Section Break",
+   "label": "Company Info"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "recruitment_details_section",
+   "fieldtype": "Section Break",
+   "label": "Recruitment Details"
+  },
+  {
+   "fieldname": "highest_package_offered",
+   "fieldtype": "Data",
+   "label": "Highest Package offered"
+  },
+  {
+   "fieldname": "number_of_students_recruited",
+   "fieldtype": "Data",
+   "label": "Number of Students Recruited"
+  },
+  {
+   "fieldname": "recruited_students_list",
+   "fieldtype": "Table",
+   "label": "Recruited Students list",
+   "options": "Recruited Students list"
+  },
+  {
+   "fieldname": "company_description",
+   "fieldtype": "Small Text",
+   "label": "Company Description"
+  }
+ ],
+ "modified": "2020-05-23 22:59:48.187910",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Recruiting company",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
