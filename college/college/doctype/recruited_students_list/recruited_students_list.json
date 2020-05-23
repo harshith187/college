@@ -1,12 +1,14 @@
 {
- "creation": "2019-09-18 16:14:46.500201",
+ "creation": "2020-05-22 13:21:47.431879",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "usn",
   "name1",
-  "mobile_number",
-  "email_id"
+  "department",
+  "package_offered",
+  "resume"
  ],
  "fields": [
   {
@@ -20,26 +22,33 @@
    "fieldname": "name1",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Name"
+   "label": "Name "
   },
   {
-   "fieldname": "email_id",
+   "fieldname": "package_offered",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Email ID"
+   "label": "Package offered"
   },
   {
-   "fieldname": "mobile_number",
-   "fieldtype": "Data",
+   "fieldname": "resume",
+   "fieldtype": "Attach",
    "in_list_view": 1,
-   "label": "Mobile number"
+   "label": "Resume"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department"
   }
  ],
  "istable": 1,
- "modified": "2020-01-23 17:26:45.666968",
+ "modified": "2020-05-23 17:30:50.380965",
  "modified_by": "Administrator",
  "module": "college",
- "name": "Basic Student Information",
+ "name": "Recruited Students list",
  "owner": "Administrator",
  "permissions": [],
  "quick_entry": 1,

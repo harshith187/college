@@ -7,8 +7,7 @@ import frappe
 from frappe.model.document import Document
 
 class CRInformation(Document):
-	def validate(self):
-		self.name1 = get_student_name(self.usn)
+	pass
 
 @frappe.whitelist()
 def get_student_name(usn):

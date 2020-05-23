@@ -6,6 +6,7 @@
  "field_order": [
   "faculty_name",
   "faculty_id",
+  "employee",
   "image",
   "contact_information_section",
   "mobile_no",
@@ -57,9 +58,15 @@
    "fieldname": "designation",
    "fieldtype": "Data",
    "label": "Designation "
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
   }
  ],
- "modified": "2019-09-15 11:48:54.191492",
+ "modified": "2020-01-25 20:00:10.759132",
  "modified_by": "Administrator",
  "module": "college",
  "name": "Faculty",

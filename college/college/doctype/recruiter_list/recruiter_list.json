@@ -1,0 +1,35 @@
+{
+ "creation": "2020-05-22 15:00:27.486184",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "recruiter",
+  "number_of_students_recruited"
+ ],
+ "fields": [
+  {
+   "fieldname": "recruiter",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Recruiter",
+   "options": "Recruiting company"
+  },
+  {
+   "fieldname": "number_of_students_recruited",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Number of Students Recruited"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-05-23 19:36:59.037384",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Recruiter List",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

@@ -1,0 +1,108 @@
+{
+ "autoname": "format:Placements-{acadamic_year}",
+ "creation": "2020-05-22 15:01:59.704703",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "acadamic_year",
+  "placement_officer_id",
+  "placement_officer",
+  "company_list_section",
+  "companies",
+  "high_package_companies_in_last_05_years_section",
+  "top_recruiters",
+  "placement_statistics_section",
+  "total_offers",
+  "total_placed",
+  "total_multiple_offers",
+  "average_placement_in_last_05_years"
+ ],
+ "fields": [
+  {
+   "fieldname": "acadamic_year",
+   "fieldtype": "Link",
+   "label": "Acadamic Year",
+   "options": "Academic Year"
+  },
+  {
+   "fieldname": "placement_officer_id",
+   "fieldtype": "Link",
+   "label": "Placement Officer ID",
+   "options": "Faculty"
+  },
+  {
+   "fieldname": "placement_officer",
+   "fieldtype": "Data",
+   "label": "Placement Officer"
+  },
+  {
+   "fieldname": "company_list_section",
+   "fieldtype": "Section Break",
+   "label": "Company list"
+  },
+  {
+   "fieldname": "companies",
+   "fieldtype": "Table",
+   "label": "Companies",
+   "options": "Recruiter List"
+  },
+  {
+   "fieldname": "high_package_companies_in_last_05_years_section",
+   "fieldtype": "Section Break",
+   "label": "High Package Companies In Last 05 Years"
+  },
+  {
+   "fieldname": "top_recruiters",
+   "fieldtype": "Table",
+   "label": "Top recruiters",
+   "options": "Top Recruiters"
+  },
+  {
+   "fieldname": "total_offers",
+   "fieldtype": "Data",
+   "label": "Total Offers"
+  },
+  {
+   "fieldname": "total_placed",
+   "fieldtype": "Data",
+   "label": "Total Placed"
+  },
+  {
+   "fieldname": "total_multiple_offers",
+   "fieldtype": "Data",
+   "label": "Total Multiple Offers"
+  },
+  {
+   "fieldname": "average_placement_in_last_05_years",
+   "fieldtype": "Data",
+   "label": "Average Placement in Last 05 Years"
+  },
+  {
+   "fieldname": "placement_statistics_section",
+   "fieldtype": "Section Break",
+   "label": "Placement statistics "
+  }
+ ],
+ "modified": "2020-05-23 22:21:25.406978",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Placements",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
