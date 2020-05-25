@@ -1,0 +1,141 @@
+{
+ "autoname": "format:{subject_code}",
+ "creation": "2020-05-24 14:54:54.872890",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "subject_code",
+  "subject_name",
+  "department",
+  "semester",
+  "subject_type",
+  "column_break_6",
+  "syllabus",
+  "faculty_id",
+  "name1",
+  "no_of_lecture_hours_per_week",
+  "total_no_of_lecture_hours",
+  "section_break_13",
+  "ia_marks",
+  "exam_marks",
+  "column_break_16",
+  "exam_hours",
+  "credit"
+ ],
+ "fields": [
+  {
+   "fieldname": "subject_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "subject_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "semester",
+   "fieldtype": "Link",
+   "label": "Semester",
+   "options": "Academic Term"
+  },
+  {
+   "default": "Theory",
+   "fieldname": "subject_type",
+   "fieldtype": "Select",
+   "label": "Subject type",
+   "options": "Theory\nPractical"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "syllabus",
+   "fieldtype": "Attach",
+   "label": "Syllabus"
+  },
+  {
+   "fieldname": "no_of_lecture_hours_per_week",
+   "fieldtype": "Data",
+   "label": "No of lecture hours per week"
+  },
+  {
+   "fieldname": "total_no_of_lecture_hours",
+   "fieldtype": "Data",
+   "label": "Total no of lecture hours"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ia_marks",
+   "fieldtype": "Data",
+   "label": "IA Marks"
+  },
+  {
+   "fieldname": "exam_marks",
+   "fieldtype": "Data",
+   "label": "Exam Marks"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "exam_hours",
+   "fieldtype": "Data",
+   "label": "Exam Hours"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "Data",
+   "label": "Credit"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Faculty Name"
+  },
+  {
+   "fieldname": "faculty_id",
+   "fieldtype": "Link",
+   "label": "Faculty ID",
+   "options": "Faculty"
+  }
+ ],
+ "modified": "2020-05-25 19:01:30.871510",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Subject",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
