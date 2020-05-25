@@ -1,0 +1,57 @@
+{
+ "creation": "2020-05-24 15:05:39.348356",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subject_code",
+  "subject1",
+  "internal_marks",
+  "external_marks",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "subject_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Subject Code",
+   "options": "Subject"
+  },
+  {
+   "fieldname": "subject1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject Name"
+  },
+  {
+   "fieldname": "internal_marks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Internal Marks"
+  },
+  {
+   "fieldname": "external_marks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "External Marks"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-05-24 17:27:38.790071",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Marks",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
